@@ -1,22 +1,33 @@
-.sectionPrimeiro{
+.livrosDoadoSection{
     display: flex;
     flex-direction: column;
-    height: 60vh;
-   // align-items: center;
-   // justify-content: space-evenly;
+    height: 70vh;
+    align-items: center;
+    justify-content: space-evenly;
+
    h2{
-    height: 10%;
+    font-size: 32px;
    }
 }
 
-.livroDoado{
-    border: solid 3px #005695;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 10px;
-    flex-direction: column;
-    width: 10%;
-    height: 45%;   
+.containerCards{
+    width: 95%;
+    height: 60vh;
+
+    section{
+        border: solid 3px #005695;
+        border-radius: 20px;
+        width: 15%;
+        height: 40vh;   
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        div{
+            text-align: center;
+        }
+
+    }
     
 }
