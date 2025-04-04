@@ -1,5 +1,4 @@
 import s from './livrosDoados.module.scss';
-import livroDoado from '../../assets/livroDoado.png'
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
