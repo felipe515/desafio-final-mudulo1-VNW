@@ -5,9 +5,9 @@ import QueroDoar from '../../pages/queroDoar/QueroDoar';
 import logoLivro from '../../assets/logoLivro.png';
 import lupa from '../../assets/lupa.png';
 import s from './header.module.scss';
-export default function Header(){
-    return(
-         <BrowserRouter>
+export default function Header() {
+  return (
+    <BrowserRouter>
       <header className={s.header}>
 
         <section className={s.logoHeader}>
@@ -54,6 +54,6 @@ export default function Header(){
         <Route path="/querodoar" element={<QueroDoar />} />
       </Routes>
     </BrowserRouter>
-    )
+  )
 }
 

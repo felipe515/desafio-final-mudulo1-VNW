@@ -13,6 +13,8 @@
 .containerCards{
     width: 95%;
     height: 60vh;
+    display: flex;
+    justify-content: space-around;
 
     section{
         border: solid 3px #005695;
